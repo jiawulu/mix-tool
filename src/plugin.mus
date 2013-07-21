@@ -1,0 +1,13 @@
+(function(app, undef) {
+	app.definePage({
+		name : '{{name}}',
+		title : '{{title}}',
+		startup : function() {
+			// implement super.startup
+			this.html("hello world");
+		},
+		teardown : function() {
+			// implement super.teardown
+		}
+	});
+})(window['app']);

@@ -14,15 +14,22 @@
       "url": "https://github.com/jiawulu/atc/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "main.js",
+  "main": "src/main.js",
   "engines": {
     "node": ">= 0.8.0"
   },
   "devDependencies": {
       "colours" : "0.6.0-2",
       "commander" : "1.2.0",
+      "mustache" : "0.7.2",
       "grunt-cli" : "~0.1.9"
   },
+  "dependencies": {
+        "colours" : "0.6.0-2",
+        "commander" : "1.2.0",
+        "mustache" : "0.7.2",
+        "grunt-cli" : "~0.1.9"
+    },
   "peerDependencies": {
     "grunt": "~0.4.1"
   },
