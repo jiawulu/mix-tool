@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+tmp
+dest
+
+.DS_Store
+dist/*.js
+demo/templates/*.js
+demo/templates/public/*.js
+
+.idea
+.idea/*
