@@ -22,12 +22,12 @@
   "devDependencies": {
     "colours": "0.6.0-2",
     "commander": "1.2.0",
-    "mustache": "0.7.2",
+    "mustache": "0.7.2"
   },
   "dependencies": {
     "colours": "0.6.0-2",
     "commander": "1.2.0",
-    "mustache": "0.7.2",
+    "mustache": "0.7.2"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
