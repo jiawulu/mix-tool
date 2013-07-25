@@ -1,7 +1,7 @@
 {
   "name": "mix-tool",
   "description": "tools for init and create mix project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://m.taobao.com",
   "author": "wuzhong@taobao.com",
   "repository": {
