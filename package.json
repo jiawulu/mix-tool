@@ -15,21 +15,22 @@
     }
   ],
   "main": "src/main.js",
+  "bin": "src/main.js",
   "engines": {
     "node": ">= 0.8.0"
   },
   "devDependencies": {
-      "colours" : "0.6.0-2",
-      "commander" : "1.2.0",
-      "mustache" : "0.7.2",
-      "grunt-cli" : "~0.1.9"
+    "colours": "0.6.0-2",
+    "commander": "1.2.0",
+    "mustache": "0.7.2",
+    "grunt-cli": "~0.1.9"
   },
   "dependencies": {
-        "colours" : "0.6.0-2",
-        "commander" : "1.2.0",
-        "mustache" : "0.7.2",
-        "grunt-cli" : "~0.1.9"
-    },
+    "colours": "0.6.0-2",
+    "commander": "1.2.0",
+    "mustache": "0.7.2",
+    "grunt-cli": "~0.1.9"
+  },
   "peerDependencies": {
     "grunt": "~0.4.1"
   },
@@ -37,5 +38,14 @@
     "mix",
     "tool",
     "webapp"
-  ]
+  ],
+  "readmeFilename": "README.md",
+  "gitHead": "45d358a955616809511e0f026792ea93f6d3e430",
+  "bugs": {
+    "url": "https://github.com/jiawulu/mix-tool/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD"
 }

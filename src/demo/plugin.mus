@@ -2,6 +2,7 @@
 	app.definePage({
 		name : '{{name}}',
 		title : '{{title}}',
+		route : '{{route}}',
 		startup : function() {
 			// implement super.startup
 			this.html("hello world");

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="dns-prefetch" href="//a.tbcdn.cn">
+    <!--允许全屏-->
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <meta content="telephone=no,email=no" name="format-detection"/>
+    <link rel="apple-touch-icon" href="favicon.png"/>
+    <link rel="Shortcut Icon" href="favicon.png" type="image/x-icon"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <title>淘宝网</title>
+    <!-- build:style inline css -->
+    <link type="text/css" rel="styleSheet" href="http://a.tbcdn.cn/g/mtb/lib-container/container.css"/>
+    <!-- /build -->
+</head>
+<body>
+<div class="viewport">
+    <header class="navbar"></header>
+    <section class="content"></section>
+    <footer class="toolbar"></footer>
+</div>
+
+<!-- build:script combolibs -->
+<script type="text/javascript" src="http://a.tbcdn.cn/g/mw/plugins/libs/zepto_1.0.1.js"></script>
+<script type="text/javascript" src="http://a.tbcdn.cn/g/mtb/lib-container/mixsln.debug.js"></script>
+<!-- /build -->
+
+<!-- build:script inline product -->
+
+<script>
+    (function (app) {
+        app.config.resourceBase = "./";
+        app.config.enableMessageLog = true;
+        app.config.enableNavbar = true;
+        app.config.enableToolbar = true;
+        app.config.enableScroll = false;
+        app.config.enableTransition = true;
+    })(window.app);
+</script>
+<!-- /build -->
+
+<!-- PAGE DEFINITION HERE , 线上环境该代码会被app自动生成 -->
+<!-- add:plugins -->
+
+<script>
+    app.start();
+</script>
+
+</body>
+</html>
